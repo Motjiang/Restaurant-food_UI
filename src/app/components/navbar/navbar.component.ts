@@ -18,7 +18,7 @@ import { Component } from '@angular/core';
           </div>
         </div>
         <ul class="nav__links" id="nav-links">
-          <li><a href="#home">About Us</a></li>
+          <li><a href="#home">Home</a></li>
           <li><a href="#service">Our Services</a></li>
           <li><a href="#menu">Our Menu</a></li>
           <li><a href="#contact">Contact Us</a></li>
