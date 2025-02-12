@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
+import { NavbarComponent } from "../navbar/navbar.component";
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [],
+  imports: [NavbarComponent],
   template: `
-    <p>
-      header works!
-    </p>
+    <app-navbar/>
   `,
   styleUrl: './header.component.css'
 })
