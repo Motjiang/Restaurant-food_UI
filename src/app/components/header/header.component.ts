@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { NavbarComponent } from "../navbar/navbar.component";
-import { HomeComponent } from "../home/home.component";
+import { NavbarComponent } from '../navbar/navbar.component';
+import { HomeComponent } from '../home/home.component';
 
 @Component({
   selector: 'app-header',
@@ -8,12 +8,10 @@ import { HomeComponent } from "../home/home.component";
   imports: [NavbarComponent, HomeComponent],
   template: `
     <header>
-    <app-navbar/>
-    <app-home/>
+      <app-navbar />
+      <app-home />
     </header>
   `,
-  styleUrl: './header.component.css'
+  styleUrl: './header.component.css',
 })
-export class HeaderComponent {
-
-}
+export class HeaderComponent {}

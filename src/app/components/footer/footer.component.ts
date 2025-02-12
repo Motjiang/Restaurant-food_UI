@@ -15,7 +15,8 @@ import { Component } from '@angular/core';
             </a>
           </div>
           <p class="section__description">
-          Our mission is to satisfy your hunger with delicious food, delivered quickly and free of charge.
+            Our mission is to satisfy your hunger with delicious food, delivered
+            quickly and free of charge.
           </p>
           <ul class="footer__socials">
             <li>
@@ -59,18 +60,17 @@ import { Component } from '@angular/core';
         </div>
       </div>
       <div class="footer__bar">
-        Copyright © {{currentYear}} Motjiang Brilliant Nhlamolo. All rights reserved.
+        Copyright © {{ currentYear }} Motjiang Brilliant Nhlamolo. All rights
+        reserved.
       </div>
     </footer>
   `,
-  styleUrl: './footer.component.css'
+  styleUrl: './footer.component.css',
 })
 export class FooterComponent {
-
   currentYear: number;
 
   constructor() {
     this.currentYear = new Date().getFullYear();
   }
-
 }

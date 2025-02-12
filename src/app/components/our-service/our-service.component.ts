@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
-       <section class="section__container service__container" id="service">
+    <section class="section__container service__container" id="service">
       <p class="section__subheader">WHAT WE SERVE</p>
       <h2 class="section__header">Your Favourite Food Delivery Partner</h2>
       <div class="service__grid">
@@ -27,8 +27,6 @@ import { Component } from '@angular/core';
       </div>
     </section>
   `,
-  styleUrl: './our-service.component.css'
+  styleUrl: './our-service.component.css',
 })
-export class OurServiceComponent {
-
-}
+export class OurServiceComponent {}
