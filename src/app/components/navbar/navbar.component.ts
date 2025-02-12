@@ -5,9 +5,37 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
-    <p>
-      navbar works!
-    </p>
+    <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#" class="logo">
+              <!-- <img src="assets/logo.png" alt="logo" /> -->
+              <span>The Food |</span>
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">About Us</a></li>
+          <li><a href="#service">Our Services</a></li>
+          <li><a href="#menu">Our Menu</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li>
+            <button class="btn">
+              <span><i class="ri-login-box-line"></i></span>
+              Login
+            </button>
+          </li>
+        </ul>
+        <div class="nav__btns">
+          <button class="btn">
+            <span><i class="ri-login-box-line"></i></span>
+            Login
+          </button>
+        </div>
+      </nav>
   `,
   styleUrl: './navbar.component.css'
 })

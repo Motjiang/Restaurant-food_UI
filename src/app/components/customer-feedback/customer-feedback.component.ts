@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
+import { GetAppComponent } from "../get-app/get-app.component";
 
 @Component({
   selector: 'app-customer-feedback',
   standalone: true,
-  imports: [],
+  imports: [GetAppComponent],
   template: `
-    <p>
-      customer-feedback works!
-    </p>
+    <app-get-app/>
   `,
   styleUrl: './customer-feedback.component.css'
 })
